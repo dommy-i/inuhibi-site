@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ページが見つかりません｜いぬひび</title>
+<meta name="description" content="いぬひび">
+<meta property="og:title" content="ページが見つかりません｜いぬひび">
+<meta property="og:description" content="いぬひび">
+<meta property="og:image" content="https://inuhibi.com/icon-512.png">
+<meta property="og:url" content="https://inuhibi.com/404.html">
+<link rel="icon" href="/icon-180.png">
+<link rel="apple-touch-icon" href="/icon-180.png">
+<style>
+:root {
+  --bg: #fbfbfa; --fg: #121212; --muted: #6a6a68; --line: #e2e2df; --soft: #f1f1ee; --ear: #c98a4b;
+  --sans: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", system-ui, sans-serif;
+  --display: "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #0e0e0e; --fg: #f1f1ef; --muted: #9b9b98; --line: #2a2a29; --soft: #191918; --ear: #d9a06a; color-scheme: dark } }
+:root[data-theme="dark"] { --bg: #0e0e0e; --fg: #f1f1ef; --muted: #9b9b98; --line: #2a2a29; --soft: #191918; --ear: #d9a06a; color-scheme: dark }
+* { box-sizing: border-box }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--sans); font-size: 16px; line-height: 1.85; -webkit-text-size-adjust: 100% }
+a { color: inherit; text-underline-offset: 3px }
+main, header.top, footer { max-width: 680px; margin: 0 auto; padding-inline: 20px }
+header.top { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 18px; border-bottom: 1px solid var(--line) }
+header.top a.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 600; letter-spacing: .04em }
+header.top img { width: 28px; height: 28px; border-radius: 7px }
+header.top nav { display: flex; gap: 16px; font-size: 14px; color: var(--muted) }
+main { padding-block: 36px 64px; display: grid; gap: 40px }
+h1 { font-family: var(--display); font-weight: 300; font-size: clamp(30px, 7vw, 44px); line-height: 1.25; margin: 0; word-break: keep-all; overflow-wrap: anywhere; letter-spacing: .02em }
+h2 { font-size: 12px; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); margin: 0 0 14px }
+h3 { font-size: 17px; margin: 0 }
+p { margin: 0 0 .6em }
+.lead { color: var(--muted); margin-top: 10px }
+section { border-top: 1px solid var(--line); padding-top: 22px }
+.hero { display: grid; gap: 18px; justify-items: start }
+.hero img { width: 96px; height: 96px; border-radius: 22px; border: 1px solid var(--line) }
+.features { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px }
+.features li { display: grid; gap: 2px }
+.features b { font-weight: 600 }
+.features span { color: var(--muted); font-size: 15px }
+.mail { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 6px 0 12px }
+.mail code { font-family: ui-monospace, Menlo, monospace; font-size: 17px; background: var(--soft); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; overflow-wrap: anywhere; user-select: all; -webkit-user-select: all }
+.button { font: inherit; font-size: 15px; border: 1px solid var(--fg); background: var(--fg); color: var(--bg); border-radius: 999px; padding: 8px 18px; min-height: 44px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center }
+.button.ghost { background: transparent; color: var(--fg) }
+.button:focus-visible, summary:focus-visible { outline: 2px solid var(--fg); outline-offset: 3px }
+details { border-bottom: 1px solid var(--line); padding: 12px 0 }
+details:first-of-type { border-top: 1px solid var(--line) }
+summary { cursor: pointer; font-weight: 600; list-style: none; display: flex; justify-content: space-between; gap: 12px }
+summary::-webkit-details-marker { display: none }
+summary::after { content: "+"; color: var(--muted); font-weight: 300 }
+details[open] summary::after { content: "−" }
+details > div { padding-top: 8px; color: var(--fg) }
+ol.steps { padding-left: 1.4em; margin: 0 }
+.policy h3 { margin-top: 26px; margin-bottom: 6px }
+.policy p.item { padding-left: 1em; text-indent: -1em }
+.note { color: var(--muted); font-size: 14px }
+footer { border-top: 1px solid var(--line); padding-block: 22px 40px; font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 8px 18px }
+@media (prefers-reduced-motion: no-preference) { details > div { animation: open .18s ease-out } @keyframes open { from { opacity: 0 } to { opacity: 1 } } }
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="/"><img src="/icon-180.png" alt="">いぬひび</a>
+  <nav><a href="/support/">サポート</a><a href="/privacy/">プライバシー</a></nav>
+</header>
+<main>
+<div><h1>ページが見つかりません</h1><p class="lead"><a href="/">トップページ</a>に戻るか、<a href="/support/">サポート</a>をご覧ください。</p></div>
+</main>
+<footer><span>© 2026 いぬひび</span><a href="/support/">サポート・お問い合わせ</a><a href="/privacy/">プライバシーポリシー</a></footer>
+
+</body>
+</html>
